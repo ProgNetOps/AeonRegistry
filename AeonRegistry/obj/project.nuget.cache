@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "bAF+Dqv9kQ8=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Enterprise-NOC\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\AeonRegistry.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Enterprise-NOC\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.12\\microsoft.aspnetcore.openapi.10.0.12.nupkg.sha512",
+    "C:\\Users\\Enterprise-NOC\\.nuget\\packages\\microsoft.openapi\\2.12.0\\microsoft.openapi.2.12.0.nupkg.sha512"
+  ],
+  "logs": []
+}
