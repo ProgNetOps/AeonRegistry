@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\AeonRegistry.csproj": {}
+    "C:\\Users\\Enterprise-NOC\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\AeonRegistry.csproj": {}
   },
   "projects": {
-    "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\AeonRegistry.csproj": {
+    "C:\\Users\\Enterprise-NOC\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\AeonRegistry.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\AeonRegistry.csproj",
+        "projectUniqueName": "C:\\Users\\Enterprise-NOC\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\AeonRegistry.csproj",
         "projectName": "AeonRegistry",
-        "projectPath": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\AeonRegistry.csproj",
-        "packagesPath": "C:\\Users\\suber\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\obj\\",
+        "projectPath": "C:\\Users\\Enterprise-NOC\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\AeonRegistry.csproj",
+        "packagesPath": "C:\\Users\\Enterprise-NOC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Enterprise-NOC\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\suber\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Enterprise-NOC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -76,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

@@ -6,7 +6,6 @@ C:\Users\Enterprise-NOC\Desktop\BLAZOR\AeonRegistry\AeonRegistry\bin\Debug\net10
 C:\Users\Enterprise-NOC\Desktop\BLAZOR\AeonRegistry\AeonRegistry\bin\Debug\net10.0\AeonRegistry.runtimeconfig.json
 C:\Users\Enterprise-NOC\Desktop\BLAZOR\AeonRegistry\AeonRegistry\bin\Debug\net10.0\AeonRegistry.dll
 C:\Users\Enterprise-NOC\Desktop\BLAZOR\AeonRegistry\AeonRegistry\bin\Debug\net10.0\AeonRegistry.pdb
-C:\Users\Enterprise-NOC\Desktop\BLAZOR\AeonRegistry\AeonRegistry\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Users\Enterprise-NOC\Desktop\BLAZOR\AeonRegistry\AeonRegistry\bin\Debug\net10.0\Microsoft.OpenApi.dll
 C:\Users\Enterprise-NOC\Desktop\BLAZOR\AeonRegistry\AeonRegistry\obj\Debug\net10.0\AeonRegistry.csproj.AssemblyReference.cache
 C:\Users\Enterprise-NOC\Desktop\BLAZOR\AeonRegistry\AeonRegistry\obj\Debug\net10.0\rpswa.dswa.cache.json
@@ -69,3 +68,7 @@ C:\Users\suber\Desktop\BLAZOR\AeonRegistry\AeonRegistry\obj\Debug\net10.0\refint
 C:\Users\suber\Desktop\BLAZOR\AeonRegistry\AeonRegistry\obj\Debug\net10.0\AeonRegistry.pdb
 C:\Users\suber\Desktop\BLAZOR\AeonRegistry\AeonRegistry\obj\Debug\net10.0\AeonRegistry.genruntimeconfig.cache
 C:\Users\suber\Desktop\BLAZOR\AeonRegistry\AeonRegistry\obj\Debug\net10.0\ref\AeonRegistry.dll
+C:\Users\Enterprise-NOC\Desktop\BLAZOR\AeonRegistry\AeonRegistry\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Enterprise-NOC\Desktop\BLAZOR\AeonRegistry\AeonRegistry\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Enterprise-NOC\Desktop\BLAZOR\AeonRegistry\AeonRegistry\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Enterprise-NOC\Desktop\BLAZOR\AeonRegistry\AeonRegistry\obj\Debug\net10.0\AeonRegistry.sourcelink.json
