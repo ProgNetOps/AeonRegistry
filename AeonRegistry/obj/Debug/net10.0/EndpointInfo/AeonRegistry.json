@@ -1,8 +1,14 @@
 {
   "openapi": "3.0.4",
   "info": {
-    "title": "AeonRegistry",
-    "version": "1.0"
+    "title": "Aeon Registry API",
+    "description": "\r\n<img src=\"/images/AeonRegistry.png\" height=\"120\">\r\n\r\n## Aeon Reasearch Division\r\n\r\nInternal API for managing recovered artifacts and research data.\r\nProvides secure access for field researchers and analysts.\r\n\r\n### Key Features:\r\n-Site and Artifact Catalog\r\n-Research record submissions\r\n-Secure media storage\r\n-User role management\r\n",
+    "contact": {
+      "name": "Aeon Registry Team",
+      "url": "https://www.mywebsite.com",
+      "email": "support@mycompany.com"
+    },
+    "version": "v1"
   },
   "paths": {
     "/api/Welcome": {
@@ -19,7 +25,21 @@
       }
     }
   },
-  "components": { },
+  "components": {
+    "securitySchemes": {
+      "Bearer": {
+        "type": "http",
+        "description": "Enter 'Bearer' [space] and then your valid JWT token",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ],
   "tags": [
     {
       "name": "AeonRegistry"

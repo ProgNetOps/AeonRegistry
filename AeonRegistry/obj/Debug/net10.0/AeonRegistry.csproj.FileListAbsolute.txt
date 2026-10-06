@@ -72,3 +72,4 @@ C:\Users\Enterprise-NOC\Desktop\BLAZOR\AeonRegistry\AeonRegistry\bin\Debug\net10
 C:\Users\Enterprise-NOC\Desktop\BLAZOR\AeonRegistry\AeonRegistry\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Enterprise-NOC\Desktop\BLAZOR\AeonRegistry\AeonRegistry\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\Enterprise-NOC\Desktop\BLAZOR\AeonRegistry\AeonRegistry\obj\Debug\net10.0\AeonRegistry.sourcelink.json
+C:\Users\Enterprise-NOC\Desktop\BLAZOR\AeonRegistry\AeonRegistry\bin\Debug\net10.0\AeonRegistry.staticwebassets.runtime.json
