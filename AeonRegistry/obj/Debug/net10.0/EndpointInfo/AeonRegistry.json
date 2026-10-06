@@ -1,82 +1,25 @@
 {
-  "openapi": "3.1.1",
+  "openapi": "3.0.4",
   "info": {
-    "title": "AeonRegistry | v1",
-    "version": "1.0.0"
+    "title": "AeonRegistry",
+    "version": "1.0"
   },
-  "servers": [
-    {
-      "url": "https://localhost:7230"
-    },
-    {
-      "url": "http://localhost:5081"
-    }
-  ],
   "paths": {
-    "/weatherforecast": {
+    "/api/Welcome": {
       "get": {
         "tags": [
           "AeonRegistry"
         ],
-        "operationId": "GetWeatherForecast",
+        "operationId": "WelcomeMessage",
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       }
     }
   },
-  "components": {
-    "schemas": {
-      "WeatherForecast": {
-        "required": [
-          "date",
-          "temperatureC",
-          "summary"
-        ],
-        "type": "object",
-        "properties": {
-          "date": {
-            "type": "string",
-            "format": "date"
-          },
-          "temperatureC": {
-            "pattern": "^-?(?:0|[1-9]\\d*)$",
-            "type": [
-              "integer",
-              "string"
-            ],
-            "format": "int32"
-          },
-          "summary": {
-            "type": [
-              "null",
-              "string"
-            ]
-          },
-          "temperatureF": {
-            "pattern": "^-?(?:0|[1-9]\\d*)$",
-            "type": [
-              "integer",
-              "string"
-            ],
-            "format": "int32"
-          }
-        }
-      }
-    }
-  },
+  "components": { },
   "tags": [
     {
       "name": "AeonRegistry"
