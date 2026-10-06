@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Enterprise-NOC\\Desktop\\BLAZOR\\AeonRegistry\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5AE35E10-C547-14E5-82D2-FB33397DBCB0}|AeonRegistry\\AeonRegistry.csproj|c:\\users\\enterprise-noc\\desktop\\blazor\\aeonregistry\\aeonregistry\\extensions\\openapiswaggerextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5AE35E10-C547-14E5-82D2-FB33397DBCB0}|AeonRegistry\\AeonRegistry.csproj|solutionrelative:aeonregistry\\extensions\\openapiswaggerextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5AE35E10-C547-14E5-82D2-FB33397DBCB0}|AeonRegistry\\AeonRegistry.csproj|c:\\users\\enterprise-noc\\desktop\\blazor\\aeonregistry\\aeonregistry\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5AE35E10-C547-14E5-82D2-FB33397DBCB0}|AeonRegistry\\AeonRegistry.csproj|solutionrelative:aeonregistry\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5AE35E10-C547-14E5-82D2-FB33397DBCB0}|AeonRegistry\\AeonRegistry.csproj|c:\\users\\enterprise-noc\\desktop\\blazor\\aeonregistry\\aeonregistry\\endpoints\\home\\homeendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AE35E10-C547-14E5-82D2-FB33397DBCB0}|AeonRegistry\\AeonRegistry.csproj|solutionrelative:aeonregistry\\endpoints\\home\\homeendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5AE35E10-C547-14E5-82D2-FB33397DBCB0}|AeonRegistry\\AeonRegistry.csproj|c:\\users\\enterprise-noc\\desktop\\blazor\\aeonregistry\\aeonregistry\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5AE35E10-C547-14E5-82D2-FB33397DBCB0}|AeonRegistry\\AeonRegistry.csproj|solutionrelative:aeonregistry\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AE35E10-C547-14E5-82D2-FB33397DBCB0}|AeonRegistry\\AeonRegistry.csproj|c:\\users\\enterprise-noc\\desktop\\blazor\\aeonregistry\\aeonregistry\\models\\response\\welcomeresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AE35E10-C547-14E5-82D2-FB33397DBCB0}|AeonRegistry\\AeonRegistry.csproj|solutionrelative:aeonregistry\\models\\response\\welcomeresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AE35E10-C547-14E5-82D2-FB33397DBCB0}|AeonRegistry\\AeonRegistry.csproj|c:\\users\\enterprise-noc\\desktop\\blazor\\aeonregistry\\aeonregistry\\extensions\\openapiswaggerextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AE35E10-C547-14E5-82D2-FB33397DBCB0}|AeonRegistry\\AeonRegistry.csproj|solutionrelative:aeonregistry\\extensions\\openapiswaggerextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AE35E10-C547-14E5-82D2-FB33397DBCB0}|AeonRegistry\\AeonRegistry.csproj|c:\\users\\enterprise-noc\\desktop\\blazor\\aeonregistry\\aeonregistry\\aeonregistry.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5AE35E10-C547-14E5-82D2-FB33397DBCB0}|AeonRegistry\\AeonRegistry.csproj|solutionrelative:aeonregistry\\aeonregistry.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,32 +34,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "OpenAPISwaggerExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\Enterprise-NOC\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Extensions\\OpenAPISwaggerExtensions.cs",
-              "RelativeDocumentMoniker": "AeonRegistry\\Extensions\\OpenAPISwaggerExtensions.cs",
-              "ToolTip": "C:\\Users\\Enterprise-NOC\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Extensions\\OpenAPISwaggerExtensions.cs",
-              "RelativeToolTip": "AeonRegistry\\Extensions\\OpenAPISwaggerExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T10:49:32.586Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2037576793:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1337924956:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GlobalUsings.cs",
-              "DocumentMoniker": "C:\\Users\\Enterprise-NOC\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\GlobalUsings.cs",
-              "RelativeDocumentMoniker": "AeonRegistry\\GlobalUsings.cs",
-              "ToolTip": "C:\\Users\\Enterprise-NOC\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\GlobalUsings.cs",
-              "RelativeToolTip": "AeonRegistry\\GlobalUsings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAfAAAAAAAAAA==",
+              "Title": "HomeEndpoints.cs",
+              "DocumentMoniker": "C:\\Users\\Enterprise-NOC\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Endpoints\\Home\\HomeEndpoints.cs",
+              "RelativeDocumentMoniker": "AeonRegistry\\Endpoints\\Home\\HomeEndpoints.cs",
+              "ToolTip": "C:\\Users\\Enterprise-NOC\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Endpoints\\Home\\HomeEndpoints.cs",
+              "RelativeToolTip": "AeonRegistry\\Endpoints\\Home\\HomeEndpoints.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAgwA4AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T12:21:39.277Z",
+              "WhenOpened": "2026-10-06T13:51:44.812Z",
               "EditorCaption": ""
             },
             {
@@ -58,9 +81,61 @@
               "RelativeDocumentMoniker": "AeonRegistry\\Program.cs",
               "ToolTip": "C:\\Users\\Enterprise-NOC\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Program.cs",
               "RelativeToolTip": "AeonRegistry\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-05T13:41:46.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GlobalUsings.cs",
+              "DocumentMoniker": "C:\\Users\\Enterprise-NOC\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\GlobalUsings.cs",
+              "RelativeDocumentMoniker": "AeonRegistry\\GlobalUsings.cs",
+              "ToolTip": "C:\\Users\\Enterprise-NOC\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\GlobalUsings.cs",
+              "RelativeToolTip": "AeonRegistry\\GlobalUsings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T12:21:39.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WelcomeResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Enterprise-NOC\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Models\\Response\\WelcomeResponse.cs",
+              "RelativeDocumentMoniker": "AeonRegistry\\Models\\Response\\WelcomeResponse.cs",
+              "ToolTip": "C:\\Users\\Enterprise-NOC\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Models\\Response\\WelcomeResponse.cs",
+              "RelativeToolTip": "AeonRegistry\\Models\\Response\\WelcomeResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T15:03:47.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AeonRegistry",
+              "DocumentMoniker": "C:\\Users\\Enterprise-NOC\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\AeonRegistry.csproj",
+              "RelativeDocumentMoniker": "AeonRegistry\\AeonRegistry.csproj",
+              "ToolTip": "C:\\Users\\Enterprise-NOC\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\AeonRegistry.csproj",
+              "RelativeToolTip": "AeonRegistry\\AeonRegistry.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-06T13:50:29.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OpenAPISwaggerExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Enterprise-NOC\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Extensions\\OpenAPISwaggerExtensions.cs",
+              "RelativeDocumentMoniker": "AeonRegistry\\Extensions\\OpenAPISwaggerExtensions.cs",
+              "ToolTip": "C:\\Users\\Enterprise-NOC\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Extensions\\OpenAPISwaggerExtensions.cs",
+              "RelativeToolTip": "AeonRegistry\\Extensions\\OpenAPISwaggerExtensions.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAADQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T10:49:32.586Z",
               "EditorCaption": ""
             }
           ]

@@ -11,21 +11,50 @@
     "version": "v1"
   },
   "paths": {
-    "/api/Welcome": {
+    "/api/Home/welcome": {
       "get": {
         "tags": [
-          "AeonRegistry"
+          "Holme"
         ],
-        "operationId": "WelcomeMessage",
+        "summary": "Welcome Message",
+        "description": "Displays a welcome message",
+        "operationId": "GetWelcomeMessage",
         "responses": {
           "200": {
-            "description": "OK"
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/WelcomeResponse"
+                }
+              }
+            }
           }
         }
       }
     }
   },
   "components": {
+    "schemas": {
+      "WelcomeResponse": {
+        "type": "object",
+        "properties": {
+          "message": {
+            "type": "string",
+            "nullable": true
+          },
+          "version": {
+            "type": "string",
+            "nullable": true
+          },
+          "timeOnly": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    },
     "securitySchemes": {
       "Bearer": {
         "type": "http",
@@ -42,7 +71,7 @@
   ],
   "tags": [
     {
-      "name": "AeonRegistry"
+      "name": "Holme"
     }
   ]
 }

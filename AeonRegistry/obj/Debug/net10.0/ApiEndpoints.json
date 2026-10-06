@@ -1,19 +1,26 @@
 [
   {
-    "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_0",
-    "RelativePath": "api/Welcome",
+    "ContainingType": "AeonRegistry.Endpoints.Home.HomeEndpoints",
+    "Method": "GetWelcomeMessage",
+    "RelativePath": "api/Home/welcome",
     "HttpMethod": "GET",
     "IsController": false,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Void",
-        "MediaTypes": [],
+        "Type": "WelcomeResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
         "StatusCode": 200
       }
     ],
-    "EndpointName": "WelcomeMessage"
+    "Tags": [
+      "Holme"
+    ],
+    "EndpointName": "GetWelcomeMessage",
+    "Description": "Displays a welcome message",
+    "Summary": "Welcome Message"
   }
 ]
