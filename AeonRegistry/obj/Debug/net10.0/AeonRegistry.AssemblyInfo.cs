@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("e66cb89e-2285-45f3-8c51-a9c625a9d807")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("AeonRegistry")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f2e6cb9ca31098396bfda149f40301fb334bb8d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+caa14cfe8d6454a5802b70395686ecdbc75cc007")]
 [assembly: System.Reflection.AssemblyProductAttribute("AeonRegistry")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AeonRegistry")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
