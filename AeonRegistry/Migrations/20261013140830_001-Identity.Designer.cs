@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace AeonRegistry.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20261009230955_001_Identity")]
-    partial class _001_Identity
+    [Migration("20261013140830_001-Identity")]
+    partial class _001Identity
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

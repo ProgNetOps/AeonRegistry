@@ -7,7 +7,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace AeonRegistry.Migrations
 {
     /// <inheritdoc />
-    public partial class _001_Identity : Migration
+    public partial class _001Identity : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
