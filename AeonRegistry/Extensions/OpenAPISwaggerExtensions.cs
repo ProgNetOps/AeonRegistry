@@ -42,6 +42,7 @@ public static class OpenAPISwaggerExtensions
                 }
             });
             
+
             C.AddSecurityDefinition("Bearer",new OpenApiSecurityScheme
             {
                 Name="Authorization",
@@ -52,6 +53,7 @@ public static class OpenAPISwaggerExtensions
                 Description=$"Enter 'Bearer' [space] and then your valid JWT token"
             });
             
+
             C.AddSecurityRequirement(document => new OpenApiSecurityRequirement
             {
                 [new OpenApiSecuritySchemeReference("Bearer", document)] = []

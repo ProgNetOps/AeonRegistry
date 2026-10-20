@@ -3,6 +3,8 @@
 public class BlockIdentityEndpoints
 {
     private readonly RequestDelegate _next;
+
+    //A collection of the paths to the endpoints that should be blocked
     private static readonly string[] BlockedPaths =
     [
          "/api/auth/register",

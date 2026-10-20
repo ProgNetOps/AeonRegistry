@@ -1,7 +1,9 @@
 
 using AeonRegistry.Endpoints.Home;
 using AeonRegistry.Models;
+using AeonRegistry.Services;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -38,6 +40,9 @@ builder.Services.AddValidation();
 #endregion
 
 #endregion
+
+//Email Sender Service
+builder.Services.AddTransient<IEmailSender, ConsoleEmailService>();
 
 var app = builder.Build(); 
 
