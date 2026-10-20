@@ -53,6 +53,9 @@ app.UseStaticFiles();
 app.UseAuthentication();
 app.UseAuthorization();
 
+//Block certain endpoints scaffolded from Identity and return status code 404
+app.UseMiddleware<BlockIdentityEndpoints>();
+
 var authRouteGroup = app.MapGroup("/api/auth")
     .WithTags("Admin");
 authRouteGroup.MapIdentityApi<ApplicationUser>();

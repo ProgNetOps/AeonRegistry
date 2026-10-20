@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AeonRegistry")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e967ccce461967ed609b4e0995445947df3a7417")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc23b672ed0e48f26c661614eaec7b478082c59c")]
 [assembly: System.Reflection.AssemblyProductAttribute("AeonRegistry")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AeonRegistry")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

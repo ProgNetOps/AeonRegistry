@@ -2,10 +2,13 @@
 
 namespace AeonRegistry.Extensions;
 /// <summary>
-/// Customizes the look of the API documentation page
+/// A static class for extending IServiceCollection
 /// </summary>
 public static class OpenAPISwaggerExtensions
 {
+    /// <summary>
+    /// Customizes the appearance of the API documentation page
+    /// </summary>
     public static IServiceCollection AddCustomSwagger(this IServiceCollection services)
     {
         services.AddEndpointsApiExplorer();
@@ -38,6 +41,7 @@ public static class OpenAPISwaggerExtensions
                     Email = "support@mycompany.com"
                 }
             });
+            
             C.AddSecurityDefinition("Bearer",new OpenApiSecurityScheme
             {
                 Name="Authorization",
@@ -47,9 +51,40 @@ public static class OpenAPISwaggerExtensions
                 In=ParameterLocation.Header,
                 Description=$"Enter 'Bearer' [space] and then your valid JWT token"
             });
+            
             C.AddSecurityRequirement(document => new OpenApiSecurityRequirement
             {
                 [new OpenApiSecuritySchemeReference("Bearer", document)] = []
+            });
+
+
+            //A collection of the Identity endpoint we want to hide from our documentation
+            string[] hiddenEndpoints = [
+                "api/auth/register",
+                "api/auth/refresh",
+                "api/auth/confirmemail",
+                "api/auth/resendconfirmationemail",
+                "api/auth/forgotpassword",
+                "api/auth/resetpassword",
+                "api/auth/manage",
+                "api/auth/manage/info",
+                "api/auth/manage/2fa"];
+
+            C.DocInclusionPredicate((docName, apiDesc) =>
+            {
+                var path = apiDesc.RelativePath?.ToLowerInvariant();
+
+                if(path is null)
+                {
+                    return false;
+                }
+
+                if (hiddenEndpoints.Contains(path, StringComparer.OrdinalIgnoreCase))
+                {
+                    return false;
+                }
+
+                return true;
             });
         });
 
