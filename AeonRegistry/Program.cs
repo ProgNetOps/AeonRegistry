@@ -1,4 +1,4 @@
-
+using AeonRegistry.Endpoints.CustomIdentityEndpoints;
 using AeonRegistry.Endpoints.Home;
 using AeonRegistry.Models;
 using AeonRegistry.Services;
@@ -66,6 +66,7 @@ var authRouteGroup = app.MapGroup("/api/auth")
 authRouteGroup.MapIdentityApi<ApplicationUser>();
 
 
+app.MapCustomIdentityEndpoints();
 app.MapHomeEndpoints();
 
 app.Run();

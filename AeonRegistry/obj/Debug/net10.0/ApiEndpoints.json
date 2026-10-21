@@ -275,6 +275,34 @@
     ]
   },
   {
+    "ContainingType": "AeonRegistry.Endpoints.CustomIdentityEndpoints.CustomIdentityEndpoints",
+    "Method": "RegisterUser",
+    "RelativePath": "api/auth/register-admin",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "AeonRegistry.Endpoints.CustomIdentityEndpoints.Models.RegisterUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Admin"
+    ],
+    "EndpointName": "RegisterAdmin",
+    "Description": "Registers a user with admin role",
+    "Summary": "Register A User"
+  },
+  {
     "ContainingType": "Microsoft.AspNetCore.Routing.IdentityApiEndpointRouteBuilderExtensions\u002B\u003C\u003Ec__DisplayClass1_0\u00601[[AeonRegistry.Models.ApplicationUser, AeonRegistry, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
     "Method": "\u003CMapIdentityApi\u003Eb__5",
     "RelativePath": "api/auth/resendConfirmationEmail",
