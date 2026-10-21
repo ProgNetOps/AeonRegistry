@@ -51,9 +51,9 @@ public static class CustomIdentityEndpoints
             {
                 UserName=dto.Email,
                 Email=dto.Email,
-                FirstName=dto.FirstName, 
+                FirstName = dto.FirstName,
+                LastName = dto.LastName,
             };
-            return Results.Ok("Register User Endpoint");
 
             //Create a temporary password that will be emailed to the user
             //The temporary password must meet the password policy
