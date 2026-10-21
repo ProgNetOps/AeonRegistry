@@ -3031,23 +3031,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\suber\\.nuget\\packages\\": {},
-    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Enterprise-NOC\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\AeonRegistry.csproj",
+      "projectUniqueName": "C:\\Users\\Enterprise-NOC\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\AeonRegistry.csproj",
       "projectName": "AeonRegistry",
-      "projectPath": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\AeonRegistry.csproj",
-      "packagesPath": "C:\\Users\\suber\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\obj\\",
+      "projectPath": "C:\\Users\\Enterprise-NOC\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\AeonRegistry.csproj",
+      "packagesPath": "C:\\Users\\Enterprise-NOC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Enterprise-NOC\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\suber\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Enterprise-NOC\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3545,13 +3545,5 @@
         }
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
-    }
-  ]
+  }
 }
