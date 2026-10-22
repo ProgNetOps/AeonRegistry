@@ -140,6 +140,24 @@
         }
       }
     },
+    "/api/auth/manage/profile": {
+      "post": {
+        "tags": [
+          "Admin"
+        ],
+        "summary": "Get the current user profile",
+        "description": "Get current user profile info",
+        "operationId": "GetProfileInfo",
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "400": {
+            "description": "Bad Request"
+          }
+        }
+      }
+    },
     "/api/Home/welcome": {
       "get": {
         "tags": [

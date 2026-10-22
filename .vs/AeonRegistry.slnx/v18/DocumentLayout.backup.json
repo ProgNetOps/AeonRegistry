@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{5AE35E10-C547-14E5-82D2-FB33397DBCB0}|AeonRegistry\\AeonRegistry.csproj|solutionrelative:aeonregistry\\endpoints\\customidentityendpoints\\customidentityendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5AE35E10-C547-14E5-82D2-FB33397DBCB0}|AeonRegistry\\AeonRegistry.csproj|c:\\users\\suber\\desktop\\blazor\\aeonregistry\\aeonregistry\\models\\userprofileresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AE35E10-C547-14E5-82D2-FB33397DBCB0}|AeonRegistry\\AeonRegistry.csproj|solutionrelative:aeonregistry\\models\\userprofileresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5AE35E10-C547-14E5-82D2-FB33397DBCB0}|AeonRegistry\\AeonRegistry.csproj|c:\\users\\suber\\desktop\\blazor\\aeonregistry\\aeonregistry\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5AE35E10-C547-14E5-82D2-FB33397DBCB0}|AeonRegistry\\AeonRegistry.csproj|solutionrelative:aeonregistry\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -42,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,20 +74,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserProfileResponse.cs",
+              "DocumentMoniker": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Models\\UserProfileResponse.cs",
+              "RelativeDocumentMoniker": "AeonRegistry\\Models\\UserProfileResponse.cs",
+              "ToolTip": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Models\\UserProfileResponse.cs",
+              "RelativeToolTip": "AeonRegistry\\Models\\UserProfileResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T12:47:43.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "CustomIdentityEndpoints.cs",
               "DocumentMoniker": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Endpoints\\CustomIdentityEndpoints\\CustomIdentityEndpoints.cs",
               "RelativeDocumentMoniker": "AeonRegistry\\Endpoints\\CustomIdentityEndpoints\\CustomIdentityEndpoints.cs",
               "ToolTip": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Endpoints\\CustomIdentityEndpoints\\CustomIdentityEndpoints.cs",
               "RelativeToolTip": "AeonRegistry\\Endpoints\\CustomIdentityEndpoints\\CustomIdentityEndpoints.cs",
-              "ViewState": "AgIAAKwAAAAAAAAAAAASwLMAAABVAAAAAAAAAA==",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAqwLIAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-20T11:55:21.192Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "HomeEndpoints.cs",
               "DocumentMoniker": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Endpoints\\Home\\HomeEndpoints.cs",
               "RelativeDocumentMoniker": "AeonRegistry\\Endpoints\\Home\\HomeEndpoints.cs",
@@ -96,7 +113,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Program.cs",
               "RelativeDocumentMoniker": "AeonRegistry\\Program.cs",
@@ -109,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "AeonRegistry\\Properties\\launchSettings.json",
@@ -121,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "GlobalUsings.cs",
               "DocumentMoniker": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\GlobalUsings.cs",
               "RelativeDocumentMoniker": "AeonRegistry\\GlobalUsings.cs",
@@ -133,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ConsoleEmailService.cs",
               "DocumentMoniker": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Services\\ConsoleEmailService.cs",
               "RelativeDocumentMoniker": "AeonRegistry\\Services\\ConsoleEmailService.cs",
@@ -145,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "OpenAPISwaggerExtensions.cs",
               "DocumentMoniker": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Extensions\\OpenAPISwaggerExtensions.cs",
               "RelativeDocumentMoniker": "AeonRegistry\\Extensions\\OpenAPISwaggerExtensions.cs",
@@ -157,7 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "BlockIdentityEndpoints.cs",
               "DocumentMoniker": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Middleware\\BlockIdentityEndpoints.cs",
               "RelativeDocumentMoniker": "AeonRegistry\\Middleware\\BlockIdentityEndpoints.cs",

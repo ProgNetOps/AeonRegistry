@@ -249,6 +249,33 @@
     ]
   },
   {
+    "ContainingType": "AeonRegistry.Endpoints.CustomIdentityEndpoints.CustomIdentityEndpoints",
+    "Method": "GetProfileInfo",
+    "RelativePath": "api/auth/manage/profile",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Admin"
+    ],
+    "EndpointName": "GetProfileInfo",
+    "Description": "Get current user profile info",
+    "Summary": "Get the current user profile"
+  },
+  {
     "ContainingType": "Microsoft.AspNetCore.Routing.IdentityApiEndpointRouteBuilderExtensions\u002B\u003C\u003Ec__DisplayClass1_0\u00601[[AeonRegistry.Models.ApplicationUser, AeonRegistry, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
     "Method": "\u003CMapIdentityApi\u003Eb__2",
     "RelativePath": "api/auth/refresh",

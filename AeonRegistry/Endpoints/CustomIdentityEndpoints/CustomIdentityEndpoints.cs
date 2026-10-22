@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.WebUtilities;
+using System.Security.Claims;
 using System.Text;
 
 namespace AeonRegistry.Endpoints.CustomIdentityEndpoints;
@@ -39,6 +40,16 @@ public static class CustomIdentityEndpoints
             .WithSummary("Custom Forgot Password")
             .Produces(StatusCodes.Status200OK)
             .Produces(StatusCodes.Status400BadRequest);
+
+        group.MapPost("/manage/profile", GetProfileInfo)
+            .WithName("GetProfileInfo")
+            .WithDescription("Get current user profile info")
+            .WithSummary("Get the current user profile")
+            .Produces(StatusCodes.Status200OK)
+            .Produces(StatusCodes.Status400BadRequest)
+            .RequireAuthorization();
+
+
         #endregion
 
         //Step3: Implement route handlers
@@ -161,11 +172,7 @@ public static class CustomIdentityEndpoints
             {
                 return Results.BadRequest(new {Message=$"Error: {ex.Message}"});
             }
-
         }
-
-
-
     }
 
 
@@ -206,9 +213,32 @@ public static class CustomIdentityEndpoints
             );
 
         return Results.Ok(new { Message = "If the user exists, a Forgot Password link will be sent" });
-
     }
 
+
+    private static async Task<IResult> GetProfileInfo(
+        ClaimsPrincipal principal,
+        UserManager<ApplicationUser> userManager)
+    {
+        //The current logged-in user
+        var user = await userManager.GetUserAsync(principal);
+
+        if(user is null)
+        {
+            return Results.NotFound();
+        }
+
+        var response = new UserProfileResponse
+        {
+            Id = user.Id,
+            FirstName = user.FirstName,
+            LastName = user.LastName,
+            Email = user.Email,
+            FullName = user.FullName
+        };
+
+        return Results.Ok(response);
+    }
 
     #endregion
 
