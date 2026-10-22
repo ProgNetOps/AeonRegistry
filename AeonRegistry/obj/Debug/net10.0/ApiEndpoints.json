@@ -266,6 +266,11 @@
         "Type": "System.Void",
         "MediaTypes": [],
         "StatusCode": 400
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 401
       }
     ],
     "Tags": [
@@ -274,6 +279,44 @@
     "EndpointName": "GetProfileInfo",
     "Description": "Get current user profile info",
     "Summary": "Get the current user profile"
+  },
+  {
+    "ContainingType": "AeonRegistry.Endpoints.CustomIdentityEndpoints.CustomIdentityEndpoints",
+    "Method": "UpdateProfileInfo",
+    "RelativePath": "api/auth/manage/profile",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AeonRegistry.Models.UpdateUserProfileRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "Admin"
+    ],
+    "EndpointName": "UpdateProfile",
+    "Description": "Updates the current user profile",
+    "Summary": "Allows the current user to update their profile"
   },
   {
     "ContainingType": "Microsoft.AspNetCore.Routing.IdentityApiEndpointRouteBuilderExtensions\u002B\u003C\u003Ec__DisplayClass1_0\u00601[[AeonRegistry.Models.ApplicationUser, AeonRegistry, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",

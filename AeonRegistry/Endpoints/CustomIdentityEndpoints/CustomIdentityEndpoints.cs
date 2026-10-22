@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.WebUtilities;
+using System.Reflection.Metadata.Ecma335;
 using System.Security.Claims;
 using System.Text;
 
@@ -47,6 +48,16 @@ public static class CustomIdentityEndpoints
             .WithSummary("Get the current user profile")
             .Produces(StatusCodes.Status200OK)
             .Produces(StatusCodes.Status400BadRequest)
+            .Produces(StatusCodes.Status401Unauthorized)
+            .RequireAuthorization();
+
+        group.MapPut("/manage/profile", UpdateProfileInfo)
+            .WithName("UpdateProfile")
+            .WithDescription("Updates the current user profile")
+            .WithSummary("Allows the current user to update their profile")
+            .Produces(StatusCodes.Status200OK)
+            .Produces(StatusCodes.Status400BadRequest)
+            .Produces(StatusCodes.Status401Unauthorized)
             .RequireAuthorization();
 
 
@@ -223,7 +234,7 @@ public static class CustomIdentityEndpoints
         //The current logged-in user
         var user = await userManager.GetUserAsync(principal);
 
-        if(user is null)
+        if (user is null)
         {
             return Results.NotFound();
         }
@@ -238,6 +249,37 @@ public static class CustomIdentityEndpoints
         };
 
         return Results.Ok(response);
+    }
+
+
+    private static async Task<IResult> UpdateProfileInfo(
+        UpdateUserProfileRequest request,
+        ClaimsPrincipal principal,
+        UserManager<ApplicationUser> userManager)
+    {
+        //Validate Inputs
+        if(string.IsNullOrEmpty(request.FirstName) ||
+            string.IsNullOrEmpty(request.LastName))
+        {
+            return Results.BadRequest(new {Message ="Fist name and Last name are required"});
+        }
+
+        var user = await userManager.GetUserAsync(principal);
+
+        if(user is null)
+        {
+            return Results.NotFound();
+        }
+
+        user.FirstName = request.FirstName;
+        user.LastName = request.LastName;
+         
+        var result = await userManager.UpdateAsync(user);
+        if(result.Succeeded is false)
+        {
+            return Results.BadRequest(new {Message=$"Update Failed: {result.Errors}"});
+        }
+        return Results.Ok(new {Message="Profile successfully updated"});
     }
 
     #endregion
