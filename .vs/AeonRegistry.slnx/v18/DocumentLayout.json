@@ -42,31 +42,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:2037576793:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1337924956:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomIdentityEndpoints.cs",
+              "DocumentMoniker": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Endpoints\\CustomIdentityEndpoints\\CustomIdentityEndpoints.cs",
+              "RelativeDocumentMoniker": "AeonRegistry\\Endpoints\\CustomIdentityEndpoints\\CustomIdentityEndpoints.cs",
+              "ToolTip": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Endpoints\\CustomIdentityEndpoints\\CustomIdentityEndpoints.cs",
+              "RelativeToolTip": "AeonRegistry\\Endpoints\\CustomIdentityEndpoints\\CustomIdentityEndpoints.cs",
+              "ViewState": "AgIAAKwAAAAAAAAAAAASwLMAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T11:55:21.192Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -76,21 +65,9 @@
               "RelativeDocumentMoniker": "AeonRegistry\\Endpoints\\Home\\HomeEndpoints.cs",
               "ToolTip": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Endpoints\\Home\\HomeEndpoints.cs",
               "RelativeToolTip": "AeonRegistry\\Endpoints\\Home\\HomeEndpoints.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAYAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-20T11:56:01.163Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CustomIdentityEndpoints.cs",
-              "DocumentMoniker": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Endpoints\\CustomIdentityEndpoints\\CustomIdentityEndpoints.cs",
-              "RelativeDocumentMoniker": "AeonRegistry\\Endpoints\\CustomIdentityEndpoints\\CustomIdentityEndpoints.cs",
-              "ToolTip": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Endpoints\\CustomIdentityEndpoints\\CustomIdentityEndpoints.cs",
-              "RelativeToolTip": "AeonRegistry\\Endpoints\\CustomIdentityEndpoints\\CustomIdentityEndpoints.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-20T11:55:21.192Z",
+              "WhenOpened": "2026-10-20T11:56:01.163Z",
               "EditorCaption": ""
             },
             {
@@ -101,9 +78,10 @@
               "RelativeDocumentMoniker": "AeonRegistry\\Program.cs",
               "ToolTip": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Program.cs",
               "RelativeToolTip": "AeonRegistry\\Program.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAkwEEAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAAEEAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-20T10:34:43.043Z"
+              "WhenOpened": "2026-10-20T10:34:43.043Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

@@ -32,6 +32,13 @@ public static class CustomIdentityEndpoints
             .WithSummary("Custom Reset Password")
             .Produces(StatusCodes.Status200OK)
             .Produces(StatusCodes.Status400BadRequest);
+
+        group.MapPost("/forgot-password", ForgotPassword)
+            .WithName("ForgotPassword")
+            .WithDescription("Custom Forgot Password flow")
+            .WithSummary("Custom Forgot Password")
+            .Produces(StatusCodes.Status200OK)
+            .Produces(StatusCodes.Status400BadRequest);
         #endregion
 
         //Step3: Implement route handlers
@@ -148,7 +155,7 @@ public static class CustomIdentityEndpoints
             }
             catch (FormatException)
             {
-                return Results.BadRequest(new { Message = "Invalid toke" });
+                return Results.BadRequest(new { Message = "Invalid token" });
             }
             catch (Exception ex)
             {
@@ -158,6 +165,47 @@ public static class CustomIdentityEndpoints
         }
 
 
+
+    }
+
+
+    private static async Task<IResult> ForgotPassword(
+        ForgotPasswordRequest request,
+        UserManager<ApplicationUser> userManager,
+        IEmailSender emailSender,
+        IConfiguration config)
+    {
+        if (string.IsNullOrEmpty(request.Email))
+        {
+            return Results.BadRequest(new { Message = "Email Address is required" });
+        }
+
+        var user = await userManager.FindByEmailAsync(request.Email);
+
+        if (user is null)
+        {
+            return Results.Ok(new { Message = "If the user exists, a Forgot Password link will be sent" });
+        }
+
+        //Generate a reset token
+        var token = await userManager.GeneratePasswordResetTokenAsync(user);
+        var encodedToken = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(token));
+
+        var baseURL = config["BaseURL"] ?? "https://localhost:7230";
+        var resetLink = $"{baseURL}/reset-password.html?email={request.Email}&resetCode={encodedToken}";
+
+        await emailSender.SendEmailAsync(
+            request.Email,
+            "Reset Your Password",
+            $"""
+                To reset your password: use the link:
+
+                {resetLink}
+
+                """
+            );
+
+        return Results.Ok(new { Message = "If the user exists, a Forgot Password link will be sent" });
 
     }
 

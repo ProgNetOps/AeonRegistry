@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,27 +70,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeEndpoints.cs",
-              "DocumentMoniker": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Endpoints\\Home\\HomeEndpoints.cs",
-              "RelativeDocumentMoniker": "AeonRegistry\\Endpoints\\Home\\HomeEndpoints.cs",
-              "ToolTip": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Endpoints\\Home\\HomeEndpoints.cs",
-              "RelativeToolTip": "AeonRegistry\\Endpoints\\Home\\HomeEndpoints.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-20T11:56:01.163Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "CustomIdentityEndpoints.cs",
               "DocumentMoniker": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Endpoints\\CustomIdentityEndpoints\\CustomIdentityEndpoints.cs",
               "RelativeDocumentMoniker": "AeonRegistry\\Endpoints\\CustomIdentityEndpoints\\CustomIdentityEndpoints.cs",
               "ToolTip": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Endpoints\\CustomIdentityEndpoints\\CustomIdentityEndpoints.cs",
               "RelativeToolTip": "AeonRegistry\\Endpoints\\CustomIdentityEndpoints\\CustomIdentityEndpoints.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAKwAAAAAAAAAAAASwLMAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-20T11:55:21.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeEndpoints.cs",
+              "DocumentMoniker": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Endpoints\\Home\\HomeEndpoints.cs",
+              "RelativeDocumentMoniker": "AeonRegistry\\Endpoints\\Home\\HomeEndpoints.cs",
+              "ToolTip": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Endpoints\\Home\\HomeEndpoints.cs",
+              "RelativeToolTip": "AeonRegistry\\Endpoints\\Home\\HomeEndpoints.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T11:56:01.163Z",
               "EditorCaption": ""
             },
             {
@@ -101,9 +102,10 @@
               "RelativeDocumentMoniker": "AeonRegistry\\Program.cs",
               "ToolTip": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Program.cs",
               "RelativeToolTip": "AeonRegistry\\Program.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAkwEEAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAAEEAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-20T10:34:43.043Z"
+              "WhenOpened": "2026-10-20T10:34:43.043Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

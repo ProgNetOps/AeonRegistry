@@ -112,6 +112,34 @@
         }
       }
     },
+    "/api/auth/forgot-password": {
+      "post": {
+        "tags": [
+          "Admin"
+        ],
+        "summary": "Custom Forgot Password",
+        "description": "Custom Forgot Password flow",
+        "operationId": "ForgotPassword",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ForgotPasswordRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "400": {
+            "description": "Bad Request"
+          }
+        }
+      }
+    },
     "/api/Home/welcome": {
       "get": {
         "tags": [
@@ -159,6 +187,19 @@
             "format": "int64"
           },
           "refreshToken": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ForgotPasswordRequest": {
+        "required": [
+          "email"
+        ],
+        "type": "object",
+        "properties": {
+          "email": {
             "type": "string",
             "nullable": true
           }
