@@ -283,7 +283,7 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "dto",
+        "Name": "request",
         "Type": "AeonRegistry.Endpoints.CustomIdentityEndpoints.Models.RegisterUserRequest",
         "IsRequired": true
       }
@@ -293,6 +293,11 @@
         "Type": "System.Void",
         "MediaTypes": [],
         "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
       }
     ],
     "Tags": [
@@ -326,6 +331,39 @@
     "Tags": [
       "Admin"
     ]
+  },
+  {
+    "ContainingType": "AeonRegistry.Endpoints.CustomIdentityEndpoints.CustomIdentityEndpoints",
+    "Method": "ResetPassword",
+    "RelativePath": "api/auth/reset-password",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Microsoft.AspNetCore.Identity.Data.ResetPasswordRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Admin"
+    ],
+    "EndpointName": "ResetPassword",
+    "Description": "Custom Reset Password for a user",
+    "Summary": "Custom Reset Password"
   },
   {
     "ContainingType": "Microsoft.AspNetCore.Routing.IdentityApiEndpointRouteBuilderExtensions\u002B\u003C\u003Ec__1\u00601[[AeonRegistry.Models.ApplicationUser, AeonRegistry, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
