@@ -13,4 +13,7 @@ public class ApplicationUser:IdentityUser
     [Required]
     public string? LastName { get; set; }
     public string FullName => $"{FirstName} {LastName}";
+    public ICollection<CatalogRecord> SubmittedCatalogRecords { get; set; } = [];
+    public ICollection<CatalogRecord> VerifiedCatalogRecords { get; set; } = [];
+    public ICollection<ArtifactMediaFile> UploadedMediaFiles { get; set; } = [];
 }
