@@ -10,7 +10,7 @@ public class CatalogRecord
     public required string SubmittedById { get; set; }//Foreign key to application user
     public ApplicationUser SubmittedBy { get; set; } = null!;
     public string? VerifiedById { get; set; }//Foreign key to application user
-    public ApplicationUser? VerifiedBy { get; set; }
+    public ApplicationUser? VerifiedBy { get; set; } = null;
     public required string Status { get; set; } = CatalogStatus.Draft.ToString();
     public required DateTime DateSubmitted { get; set; } = DateTime.UtcNow;
     public ICollection<CatalogNote> Notes { get; set; } = [];

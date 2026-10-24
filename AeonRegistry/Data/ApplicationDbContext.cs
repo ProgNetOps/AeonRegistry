@@ -21,7 +21,7 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
         builder.Entity<CatalogRecord>()
             .HasOne(cr => cr.SubmittedBy)
             .WithMany(u => u.SubmittedCatalogRecords) 
-            .HasForeignKey(cr => cr.SubmittedBy)
+            .HasForeignKey(cr => cr.SubmittedById)
             .OnDelete(DeleteBehavior.Restrict);
 
         builder.Entity<CatalogRecord>()
