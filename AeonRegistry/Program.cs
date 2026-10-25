@@ -2,6 +2,7 @@ using AeonRegistry.Endpoints.CustomIdentityEndpoints;
 using AeonRegistry.Endpoints.Home;
 using AeonRegistry.Models;
 using AeonRegistry.Services;
+using AeonRegistryAPI.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
@@ -52,6 +53,13 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+//Checks if the data is empty or if there are pending migrations and acts as appropriate
+using (var scope = app.Services.CreateScope())
+{
+    await DataSeed.ManageDataAsync(scope.ServiceProvider);
+}
+
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();

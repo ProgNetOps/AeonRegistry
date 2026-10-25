@@ -5,7 +5,7 @@ namespace AeonRegistry.Models;
 public class CatalogNote
 {
     public int Id { get; set; }
-    public required int CatalogRecordId { get; set; }
+    public int CatalogRecordId { get; set; }
     public CatalogRecord? CatalogRecord { get; set; }
     public string AuthorId { get; set; } = string.Empty;//Foreign key to application user
     public ApplicationUser? Author { get; set; } = null!;

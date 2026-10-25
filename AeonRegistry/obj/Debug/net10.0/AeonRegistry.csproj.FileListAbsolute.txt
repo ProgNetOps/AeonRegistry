@@ -274,3 +274,12 @@ C:\Users\suber\Desktop\BLAZOR\AeonRegistry\AeonRegistry\obj\Debug\net10.0\refint
 C:\Users\suber\Desktop\BLAZOR\AeonRegistry\AeonRegistry\obj\Debug\net10.0\AeonRegistry.pdb
 C:\Users\suber\Desktop\BLAZOR\AeonRegistry\AeonRegistry\obj\Debug\net10.0\AeonRegistry.genruntimeconfig.cache
 C:\Users\suber\Desktop\BLAZOR\AeonRegistry\AeonRegistry\obj\Debug\net10.0\ref\AeonRegistry.dll
+C:\Users\suber\Desktop\BLAZOR\AeonRegistry\AeonRegistry\bin\Debug\net10.0\Data\SeedData\artifacts.json
+C:\Users\suber\Desktop\BLAZOR\AeonRegistry\AeonRegistry\bin\Debug\net10.0\Data\SeedData\catalogRecords.andes.json
+C:\Users\suber\Desktop\BLAZOR\AeonRegistry\AeonRegistry\bin\Debug\net10.0\Data\SeedData\catalogRecords.Antarctica.json
+C:\Users\suber\Desktop\BLAZOR\AeonRegistry\AeonRegistry\bin\Debug\net10.0\Data\SeedData\catalogRecords.atlantis.json
+C:\Users\suber\Desktop\BLAZOR\AeonRegistry\AeonRegistry\bin\Debug\net10.0\Data\SeedData\catalogRecords.gobekli.json
+C:\Users\suber\Desktop\BLAZOR\AeonRegistry\AeonRegistry\bin\Debug\net10.0\Data\SeedData\catalogRecords.kailash.json
+C:\Users\suber\Desktop\BLAZOR\AeonRegistry\AeonRegistry\bin\Debug\net10.0\Data\SeedData\catalogRecords.sahara.json
+C:\Users\suber\Desktop\BLAZOR\AeonRegistry\AeonRegistry\bin\Debug\net10.0\Data\SeedData\catalogRecords.yonaguni.json
+C:\Users\suber\Desktop\BLAZOR\AeonRegistry\AeonRegistry\bin\Debug\net10.0\Data\SeedData\sites.json
