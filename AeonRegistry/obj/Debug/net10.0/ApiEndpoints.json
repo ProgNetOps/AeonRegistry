@@ -552,5 +552,29 @@
     "EndpointName": "GetWelcomeMessage",
     "Description": "Displays a welcome message",
     "Summary": "Welcome Message"
+  },
+  {
+    "ContainingType": "AeonRegistry.Endpoints.Sites.SiteEndpoints",
+    "Method": "GetAllPublicSites",
+    "RelativePath": "api/public/sites/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[AeonRegistry.Models.Response.PublicSiteResponse, AeonRegistry, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Sites - Public"
+    ],
+    "EndpointName": "GetAllPublicSites",
+    "Description": "Returns all sites with only htheir public data",
+    "Summary": "Get All Sites (Public)"
   }
 ]

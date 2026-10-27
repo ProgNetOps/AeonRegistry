@@ -1,7 +1,9 @@
 using AeonRegistry.Endpoints.CustomIdentityEndpoints;
 using AeonRegistry.Endpoints.Home;
+using AeonRegistry.Endpoints.Sites;
 using AeonRegistry.Models;
 using AeonRegistry.Services;
+using AeonRegistry.Services.Interfaces;
 using AeonRegistryAPI.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
@@ -45,6 +47,12 @@ builder.Services.AddValidation();
 //Email Sender Service
 builder.Services.AddTransient<IEmailSender, ConsoleEmailService>();
 
+#region Register Custom Services
+builder.Services.AddScoped<ISiteService, SiteService>();
+
+#endregion
+
+
 var app = builder.Build(); 
 
 // Configure the HTTP request pipeline.
@@ -73,8 +81,11 @@ var authRouteGroup = app.MapGroup("/api/auth")
     .WithTags("Admin");
 authRouteGroup.MapIdentityApi<ApplicationUser>();
 
-
+#region Register Endpoints
 app.MapCustomIdentityEndpoints();
+app.MapSiteEndpoints();
 app.MapHomeEndpoints();
+
+#endregion
 
 app.Run();
