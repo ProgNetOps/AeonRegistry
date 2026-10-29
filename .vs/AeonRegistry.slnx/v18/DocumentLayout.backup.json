@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5AE35E10-C547-14E5-82D2-FB33397DBCB0}|AeonRegistry\\AeonRegistry.csproj|c:\\users\\suber\\desktop\\blazor\\aeonregistry\\aeonregistry\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5AE35E10-C547-14E5-82D2-FB33397DBCB0}|AeonRegistry\\AeonRegistry.csproj|solutionrelative:aeonregistry\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5AE35E10-C547-14E5-82D2-FB33397DBCB0}|AeonRegistry\\AeonRegistry.csproj|c:\\users\\suber\\desktop\\blazor\\aeonregistry\\aeonregistry\\services\\siteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AE35E10-C547-14E5-82D2-FB33397DBCB0}|AeonRegistry\\AeonRegistry.csproj|solutionrelative:aeonregistry\\services\\siteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5AE35E10-C547-14E5-82D2-FB33397DBCB0}|AeonRegistry\\AeonRegistry.csproj|c:\\users\\suber\\desktop\\blazor\\aeonregistry\\aeonregistry\\endpoints\\sites\\siteendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5AE35E10-C547-14E5-82D2-FB33397DBCB0}|AeonRegistry\\AeonRegistry.csproj|solutionrelative:aeonregistry\\endpoints\\sites\\siteendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AE35E10-C547-14E5-82D2-FB33397DBCB0}|AeonRegistry\\AeonRegistry.csproj|c:\\users\\suber\\desktop\\blazor\\aeonregistry\\aeonregistry\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AE35E10-C547-14E5-82D2-FB33397DBCB0}|AeonRegistry\\AeonRegistry.csproj|solutionrelative:aeonregistry\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AE35E10-C547-14E5-82D2-FB33397DBCB0}|AeonRegistry\\AeonRegistry.csproj|c:\\users\\suber\\desktop\\blazor\\aeonregistry\\aeonregistry\\filters\\exceptionhandlingfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AE35E10-C547-14E5-82D2-FB33397DBCB0}|AeonRegistry\\AeonRegistry.csproj|solutionrelative:aeonregistry\\filters\\exceptionhandlingfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5AE35E10-C547-14E5-82D2-FB33397DBCB0}|AeonRegistry\\AeonRegistry.csproj|c:\\users\\suber\\desktop\\blazor\\aeonregistry\\aeonregistry\\endpoints\\customidentityendpoints\\customidentityendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5AE35E10-C547-14E5-82D2-FB33397DBCB0}|AeonRegistry\\AeonRegistry.csproj|c:\\users\\suber\\desktop\\blazor\\aeonregistry\\aeonregistry\\endpoints\\home\\homeendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5AE35E10-C547-14E5-82D2-FB33397DBCB0}|AeonRegistry\\AeonRegistry.csproj|solutionrelative:aeonregistry\\endpoints\\home\\homeendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5AE35E10-C547-14E5-82D2-FB33397DBCB0}|AeonRegistry\\AeonRegistry.csproj|c:\\users\\suber\\desktop\\blazor\\aeonregistry\\aeonregistry\\services\\siteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5AE35E10-C547-14E5-82D2-FB33397DBCB0}|AeonRegistry\\AeonRegistry.csproj|solutionrelative:aeonregistry\\services\\siteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5AE35E10-C547-14E5-82D2-FB33397DBCB0}|AeonRegistry\\AeonRegistry.csproj|c:\\users\\suber\\desktop\\blazor\\aeonregistry\\aeonregistry\\services\\interfaces\\isiteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,43 +70,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:2037576793:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1337924956:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CustomIdentityEndpoints.cs",
-              "DocumentMoniker": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Endpoints\\CustomIdentityEndpoints\\CustomIdentityEndpoints.cs",
-              "RelativeDocumentMoniker": "AeonRegistry\\Endpoints\\CustomIdentityEndpoints\\CustomIdentityEndpoints.cs",
-              "ToolTip": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Endpoints\\CustomIdentityEndpoints\\CustomIdentityEndpoints.cs",
-              "RelativeToolTip": "AeonRegistry\\Endpoints\\CustomIdentityEndpoints\\CustomIdentityEndpoints.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwCoAAAA3AAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Program.cs",
+              "RelativeDocumentMoniker": "AeonRegistry\\Program.cs",
+              "ToolTip": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Program.cs",
+              "RelativeToolTip": "AeonRegistry\\Program.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-23T10:07:04.093Z",
+              "WhenOpened": "2026-10-25T23:26:07.211Z",
               "EditorCaption": ""
             },
             {
@@ -113,7 +93,7 @@
               "RelativeDocumentMoniker": "AeonRegistry\\Endpoints\\Sites\\SiteEndpoints.cs",
               "ToolTip": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Endpoints\\Sites\\SiteEndpoints.cs",
               "RelativeToolTip": "AeonRegistry\\Endpoints\\Sites\\SiteEndpoints.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-27T22:23:26.05Z",
               "EditorCaption": ""
@@ -121,19 +101,44 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Program.cs",
-              "RelativeDocumentMoniker": "AeonRegistry\\Program.cs",
-              "ToolTip": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Program.cs",
-              "RelativeToolTip": "AeonRegistry\\Program.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAEoAAAALAAAAAAAAAA==",
+              "Title": "SiteService.cs",
+              "DocumentMoniker": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Services\\SiteService.cs",
+              "RelativeDocumentMoniker": "AeonRegistry\\Services\\SiteService.cs",
+              "ToolTip": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Services\\SiteService.cs",
+              "RelativeToolTip": "AeonRegistry\\Services\\SiteService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAUwAYAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-25T23:26:07.211Z",
+              "WhenOpened": "2026-10-27T22:14:11.81Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "ExceptionHandlingFilter.cs",
+              "DocumentMoniker": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Filters\\ExceptionHandlingFilter.cs",
+              "RelativeDocumentMoniker": "AeonRegistry\\Filters\\ExceptionHandlingFilter.cs",
+              "ToolTip": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Filters\\ExceptionHandlingFilter.cs",
+              "RelativeToolTip": "AeonRegistry\\Filters\\ExceptionHandlingFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-29T21:23:28.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomIdentityEndpoints.cs",
+              "DocumentMoniker": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Endpoints\\CustomIdentityEndpoints\\CustomIdentityEndpoints.cs",
+              "RelativeDocumentMoniker": "AeonRegistry\\Endpoints\\CustomIdentityEndpoints\\CustomIdentityEndpoints.cs",
+              "ToolTip": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Endpoints\\CustomIdentityEndpoints\\CustomIdentityEndpoints.cs",
+              "RelativeToolTip": "AeonRegistry\\Endpoints\\CustomIdentityEndpoints\\CustomIdentityEndpoints.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T10:07:04.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "HomeEndpoints.cs",
               "DocumentMoniker": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Endpoints\\Home\\HomeEndpoints.cs",
               "RelativeDocumentMoniker": "AeonRegistry\\Endpoints\\Home\\HomeEndpoints.cs",
@@ -141,25 +146,11 @@
               "RelativeToolTip": "AeonRegistry\\Endpoints\\Home\\HomeEndpoints.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAgwAwAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-20T11:56:01.163Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-20T11:56:01.163Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SiteService.cs",
-              "DocumentMoniker": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Services\\SiteService.cs",
-              "RelativeDocumentMoniker": "AeonRegistry\\Services\\SiteService.cs",
-              "ToolTip": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Services\\SiteService.cs",
-              "RelativeToolTip": "AeonRegistry\\Services\\SiteService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-27T22:14:11.81Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ISiteService.cs",
               "DocumentMoniker": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Services\\Interfaces\\ISiteService.cs",
               "RelativeDocumentMoniker": "AeonRegistry\\Services\\Interfaces\\ISiteService.cs",
@@ -167,12 +158,11 @@
               "RelativeToolTip": "AeonRegistry\\Services\\Interfaces\\ISiteService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-27T22:10:11.017Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-27T22:10:11.017Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Site.cs",
               "DocumentMoniker": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Models\\Site.cs",
               "RelativeDocumentMoniker": "AeonRegistry\\Models\\Site.cs",
@@ -180,12 +170,11 @@
               "RelativeToolTip": "AeonRegistry\\Models\\Site.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-27T22:20:11.373Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-27T22:20:11.373Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "PublicSiteResponse.cs",
               "DocumentMoniker": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Models\\Response\\PublicSiteResponse.cs",
               "RelativeDocumentMoniker": "AeonRegistry\\Models\\Response\\PublicSiteResponse.cs",
@@ -193,12 +182,11 @@
               "RelativeToolTip": "AeonRegistry\\Models\\Response\\PublicSiteResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-27T22:07:06.56Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-27T22:07:06.56Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "DataSeed.cs",
               "DocumentMoniker": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Data\\DataSeed.cs",
               "RelativeDocumentMoniker": "AeonRegistry\\Data\\DataSeed.cs",
@@ -206,12 +194,11 @@
               "RelativeToolTip": "AeonRegistry\\Data\\DataSeed.cs",
               "ViewState": "AgIAAOwAAAAAAAAAAAAuwAsBAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-25T23:15:32.045Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-25T23:15:32.045Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "CatalogRecord.cs",
               "DocumentMoniker": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Models\\CatalogRecord.cs",
               "RelativeDocumentMoniker": "AeonRegistry\\Models\\CatalogRecord.cs",
@@ -223,7 +210,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "CatalogNote.cs",
               "DocumentMoniker": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Models\\CatalogNote.cs",
               "RelativeDocumentMoniker": "AeonRegistry\\Models\\CatalogNote.cs",
@@ -235,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "ArtifactType.cs",
               "DocumentMoniker": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Enums\\ArtifactType.cs",
               "RelativeDocumentMoniker": "AeonRegistry\\Enums\\ArtifactType.cs",
@@ -247,7 +234,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ArtifactMediaFile.cs",
               "DocumentMoniker": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Models\\ArtifactMediaFile.cs",
               "RelativeDocumentMoniker": "AeonRegistry\\Models\\ArtifactMediaFile.cs",
@@ -259,7 +246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "WelcomeResponse.cs",
               "DocumentMoniker": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Models\\Response\\WelcomeResponse.cs",
               "RelativeDocumentMoniker": "AeonRegistry\\Models\\Response\\WelcomeResponse.cs",

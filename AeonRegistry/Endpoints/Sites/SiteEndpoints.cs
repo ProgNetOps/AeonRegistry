@@ -1,4 +1,5 @@
-﻿using AeonRegistry.Models.Response;
+﻿using AeonRegistry.Filters;
+using AeonRegistry.Models.Response;
 using AeonRegistry.Services.Interfaces;
 using Microsoft.AspNetCore.Http.HttpResults;
 
@@ -15,13 +16,15 @@ public static class SiteEndpoints
             .AllowAnonymous()
             .WithSummary("Public Site Endpoints")
             .WithDescription("Endpoints that expose public sites")
-            .WithTags("Sites - Public");
+            .WithTags("Sites - Public")
+            .AddEndpointFilter<ExceptionHandlingFilter>();
 
 
         //then endpoints
         publicGroup.MapGet("", GetAllPublicSites)
             .WithName(nameof(GetAllPublicSites))
             .Produces<List<PublicSiteResponse>>(StatusCodes.Status200OK)
+            .Produces(StatusCodes.Status500InternalServerError)
             .WithSummary("Get All Sites (Public)")
             .WithDescription("Returns all sites with only htheir public data");
 

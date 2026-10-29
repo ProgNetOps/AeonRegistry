@@ -568,6 +568,11 @@
           "application/json"
         ],
         "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 500
       }
     ],
     "Tags": [
