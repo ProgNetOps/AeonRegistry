@@ -581,5 +581,45 @@
     "EndpointName": "GetAllPublicSites",
     "Description": "Returns all sites with only htheir public data",
     "Summary": "Get All Sites (Public)"
+  },
+  {
+    "ContainingType": "AeonRegistry.Endpoints.Sites.SiteEndpoints",
+    "Method": "GetPublicSiteById",
+    "RelativePath": "api/public/sites/{id:int}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AeonRegistry.Models.Response.PublicSiteResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 500
+      }
+    ],
+    "Tags": [
+      "Sites - Public"
+    ],
+    "EndpointName": "GetPublicSiteById",
+    "Description": "Returns a single site with public data",
+    "Summary": "Get Site by Id (public)"
   }
 ]

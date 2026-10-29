@@ -22,4 +22,22 @@ public class SiteService(ApplicationDbContext db) : ISiteService
             })
             .ToListAsync(ct);
     }
+
+    public async Task<PublicSiteResponse?> GetPublicSiteByIdAsync(int Id, CancellationToken ct)
+    {
+        return await db.Sites
+            .AsNoTracking()
+            .Where(s => s.Id == Id)
+            .Select(s => new PublicSiteResponse
+            {
+                Id = s.Id,
+                Name = s.Name,
+                Location = s.Location,
+                Coordinates = s.Coordinates,
+                Latitude = s.Latitude,
+                Description = s.Description,
+                PublicNarrative = s.PublicNarrative
+            })
+            .FirstOrDefaultAsync();
+    }
 }

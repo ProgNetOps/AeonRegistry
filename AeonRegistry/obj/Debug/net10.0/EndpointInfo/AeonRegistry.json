@@ -267,6 +267,45 @@
           }
         }
       }
+    },
+    "/api/public/sites/{id}": {
+      "get": {
+        "tags": [
+          "Sites - Public"
+        ],
+        "summary": "Get Site by Id (public)",
+        "description": "Returns a single site with public data",
+        "operationId": "GetPublicSiteById",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PublicSiteResponse"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
     }
   },
   "components": {
