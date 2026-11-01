@@ -240,6 +240,40 @@
         }
       }
     },
+    "/api/private/sites": {
+      "get": {
+        "tags": [
+          "Sites - Private"
+        ],
+        "summary": "Get All Sites - Private",
+        "description": "Returns all sites requires Authentication",
+        "operationId": "GetAllPrivateSites",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PrivateSiteResponse"
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
     "/api/public/sites": {
       "get": {
         "tags": [
@@ -371,6 +405,48 @@
             "nullable": true
           },
           "twoFactorRecoveryCode": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PrivateSiteResponse": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "location": {
+            "type": "string",
+            "nullable": true
+          },
+          "coordinates": {
+            "type": "string",
+            "nullable": true
+          },
+          "latitude": {
+            "type": "number",
+            "format": "double"
+          },
+          "longitude": {
+            "type": "number",
+            "format": "double"
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "publicNarrative": {
+            "type": "string",
+            "nullable": true
+          },
+          "aeonNarrative": {
             "type": "string",
             "nullable": true
           }
@@ -540,6 +616,9 @@
     },
     {
       "name": "Home"
+    },
+    {
+      "name": "Sites - Private"
     },
     {
       "name": "Sites - Public"

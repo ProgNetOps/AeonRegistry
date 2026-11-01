@@ -6,6 +6,7 @@ namespace AeonRegistry.Services;
 
 public class SiteService(ApplicationDbContext db) : ISiteService
 {
+
     public async Task<List<PublicSiteResponse>> GetAllPublicSitesAsync(CancellationToken ct)
     {
         return await db.Sites
@@ -40,4 +41,23 @@ public class SiteService(ApplicationDbContext db) : ISiteService
             })
             .FirstOrDefaultAsync();
     }
+
+    public async Task<List<PrivateSiteResponse>> GetAllPrivateSitesAsync(CancellationToken ct)
+    {
+        return await db.Sites
+            .AsNoTracking()
+            .Select(s => new PrivateSiteResponse
+            {
+                Id = s.Id,
+                Name = s.Name,
+                Location = s.Location,
+                Coordinates = s.Coordinates,
+                Latitude = s.Latitude,
+                Description = s.Description,
+                PublicNarrative = s.PublicNarrative,
+                AeonNarrative = s.AeonNarrative
+            })
+            .ToListAsync(ct);
+    }
+
 }

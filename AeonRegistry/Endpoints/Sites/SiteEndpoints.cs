@@ -19,6 +19,12 @@ public static class SiteEndpoints
             .WithTags("Sites - Public")
             .AddEndpointFilter<ExceptionHandlingFilter>();
 
+        var privateGroup = route.MapGroup("api/private/sites")
+            .RequireAuthorization()
+            .WithTags("Sites - Private")
+            .WithSummary("Authorized Site Endpoint")
+            .WithDescription("Endpoints that require authentication");
+
 
         //then endpoints
         publicGroup.MapGet("", GetAllPublicSites)
@@ -35,6 +41,16 @@ public static class SiteEndpoints
             .Produces(StatusCodes.Status500InternalServerError)
             .WithSummary("Get Site by Id (public)")
             .WithDescription("Returns a single site with public data");
+
+        privateGroup.MapGet("", GetAllPrivateSites)
+            .WithName(nameof(GetAllPrivateSites))
+            .Produces<List<PrivateSiteResponse>>(StatusCodes.Status200OK)
+            .Produces(StatusCodes.Status401Unauthorized)
+            .Produces(StatusCodes.Status403Forbidden)
+            .Produces(StatusCodes.Status500InternalServerError)
+            .WithSummary("Get All Sites - Private")
+            .WithDescription("Returns all sites requires Authentication");
+
 
         return route;
     }
@@ -57,6 +73,13 @@ public static class SiteEndpoints
         return site is null ?
             TypedResults.NotFound() :
             TypedResults.Ok(site);
+    }
+
+    private static async Task<Ok<List<PrivateSiteResponse>>> GetAllPrivateSites(
+       ISiteService siteService, CancellationToken ct)
+    {
+        var sites = await siteService.GetAllPrivateSitesAsync(ct);
+        return TypedResults.Ok(sites);
     }
 
 }
