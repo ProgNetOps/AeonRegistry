@@ -51,6 +51,15 @@ public static class SiteEndpoints
             .WithSummary("Get All Sites - Private")
             .WithDescription("Returns all sites requires Authentication");
 
+        privateGroup.MapGet("/{id:int}", GetPrivateSiteById)
+            .WithName(nameof(GetPrivateSiteById))
+            .Produces<PrivateSiteResponse>(StatusCodes.Status200OK)
+            .Produces(StatusCodes.Status404NotFound)
+            .Produces(StatusCodes.Status401Unauthorized)
+            .Produces(StatusCodes.Status403Forbidden)
+            .Produces(StatusCodes.Status500InternalServerError)
+            .WithSummary("Get Site by Id - Private")
+            .WithDescription("Returns all sites requires Authentication");
 
         return route;
     }
@@ -80,6 +89,16 @@ public static class SiteEndpoints
     {
         var sites = await siteService.GetAllPrivateSitesAsync(ct);
         return TypedResults.Ok(sites);
+    }
+
+    private static async Task<Results<Ok<PrivateSiteResponse>, NotFound>> GetPrivateSiteById
+        (int id, ISiteService service, CancellationToken ct)
+    {
+        var site = await service.GetPrivateSiteByIdAsync(id, ct);
+
+        return site is null ?
+            TypedResults.NotFound() :
+            TypedResults.Ok(site);
     }
 
 }

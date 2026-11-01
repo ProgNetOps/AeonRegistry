@@ -594,6 +594,56 @@
   },
   {
     "ContainingType": "AeonRegistry.Endpoints.Sites.SiteEndpoints",
+    "Method": "GetPrivateSiteById",
+    "RelativePath": "api/private/sites/{id:int}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AeonRegistry.Models.Response.PrivateSiteResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 401
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 403
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 500
+      }
+    ],
+    "Tags": [
+      "Sites - Private"
+    ],
+    "EndpointName": "GetPrivateSiteById",
+    "Description": "Returns all sites requires Authentication",
+    "Summary": "Get Site by Id - Private"
+  },
+  {
+    "ContainingType": "AeonRegistry.Endpoints.Sites.SiteEndpoints",
     "Method": "GetAllPublicSites",
     "RelativePath": "api/public/sites/",
     "HttpMethod": "GET",

@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5AE35E10-C547-14E5-82D2-FB33397DBCB0}|AeonRegistry\\AeonRegistry.csproj|c:\\users\\suber\\desktop\\blazor\\aeonregistry\\aeonregistry\\services\\interfaces\\isiteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AE35E10-C547-14E5-82D2-FB33397DBCB0}|AeonRegistry\\AeonRegistry.csproj|solutionrelative:aeonregistry\\services\\interfaces\\isiteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5AE35E10-C547-14E5-82D2-FB33397DBCB0}|AeonRegistry\\AeonRegistry.csproj|c:\\users\\suber\\desktop\\blazor\\aeonregistry\\aeonregistry\\endpoints\\sites\\siteendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5AE35E10-C547-14E5-82D2-FB33397DBCB0}|AeonRegistry\\AeonRegistry.csproj|solutionrelative:aeonregistry\\endpoints\\sites\\siteendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5AE35E10-C547-14E5-82D2-FB33397DBCB0}|AeonRegistry\\AeonRegistry.csproj|c:\\users\\suber\\desktop\\blazor\\aeonregistry\\aeonregistry\\services\\siteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5AE35E10-C547-14E5-82D2-FB33397DBCB0}|AeonRegistry\\AeonRegistry.csproj|solutionrelative:aeonregistry\\services\\siteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5AE35E10-C547-14E5-82D2-FB33397DBCB0}|AeonRegistry\\AeonRegistry.csproj|c:\\users\\suber\\desktop\\blazor\\aeonregistry\\aeonregistry\\services\\interfaces\\isiteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5AE35E10-C547-14E5-82D2-FB33397DBCB0}|AeonRegistry\\AeonRegistry.csproj|solutionrelative:aeonregistry\\services\\interfaces\\isiteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5AE35E10-C547-14E5-82D2-FB33397DBCB0}|AeonRegistry\\AeonRegistry.csproj|c:\\users\\suber\\desktop\\blazor\\aeonregistry\\aeonregistry\\models\\response\\privatesiteresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -74,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -102,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "SiteService.cs",
               "DocumentMoniker": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Services\\SiteService.cs",
               "RelativeDocumentMoniker": "AeonRegistry\\Services\\SiteService.cs",
@@ -115,26 +115,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ISiteService.cs",
               "DocumentMoniker": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Services\\Interfaces\\ISiteService.cs",
               "RelativeDocumentMoniker": "AeonRegistry\\Services\\Interfaces\\ISiteService.cs",
-              "ToolTip": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Services\\Interfaces\\ISiteService.cs",
-              "RelativeToolTip": "AeonRegistry\\Services\\Interfaces\\ISiteService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Services\\Interfaces\\ISiteService.cs*",
+              "RelativeToolTip": "AeonRegistry\\Services\\Interfaces\\ISiteService.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwAcAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-27T22:10:11.017Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SiteEndpoints.cs",
               "DocumentMoniker": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Endpoints\\Sites\\SiteEndpoints.cs",
               "RelativeDocumentMoniker": "AeonRegistry\\Endpoints\\Sites\\SiteEndpoints.cs",
               "ToolTip": "C:\\Users\\suber\\Desktop\\BLAZOR\\AeonRegistry\\AeonRegistry\\Endpoints\\Sites\\SiteEndpoints.cs",
               "RelativeToolTip": "AeonRegistry\\Endpoints\\Sites\\SiteEndpoints.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAQwCoAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAACoAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-27T22:23:26.05Z",
               "EditorCaption": ""

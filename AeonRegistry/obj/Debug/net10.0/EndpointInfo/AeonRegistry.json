@@ -274,6 +274,51 @@
         }
       }
     },
+    "/api/private/sites/{id}": {
+      "get": {
+        "tags": [
+          "Sites - Private"
+        ],
+        "summary": "Get Site by Id - Private",
+        "description": "Returns all sites requires Authentication",
+        "operationId": "GetPrivateSiteById",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PrivateSiteResponse"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
     "/api/public/sites": {
       "get": {
         "tags": [
